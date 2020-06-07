@@ -6,7 +6,12 @@
   const autoInscrement = () => i++;
 
   let todos = [
-    { id: autoInscrement(), name: "Create a todo tool", status: "WAITING" },
+    {
+      id: autoInscrement(),
+      name: "Create a todo tool",
+      status: "INPROGRESS",
+      startedAt: new Date()
+    },
     {
       id: autoInscrement(),
       name: "Learn Go programing language",

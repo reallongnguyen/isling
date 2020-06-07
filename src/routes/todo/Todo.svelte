@@ -33,6 +33,7 @@
   .container {
     padding: 0 24px;
   }
+
   .board + .board {
     margin-top: 64px;
   }
@@ -163,6 +164,7 @@
 <svelte:head>
   <title>Todo</title>
 </svelte:head>
+
 <div class="container">
   <div class="board">
     <h2>Todo</h2>
